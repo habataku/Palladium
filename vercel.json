@@ -4,6 +4,7 @@
     { "src": "examples/http-server/*.js","use": "@vercel/node" },
     { "src": "examples/http-server/*.html","use": "@vercel/static" },
     { "src": "lib/**","use": "@vercel/static" },
+    { "src": "lib/server/**","use": "@vercel/static" },
     { "src": "*.json","use": "@vercel/static" }
   ],
   "routes": [
